@@ -41,6 +41,7 @@ public class HangmanServerController {
             updatedDash = dash;
             str.delete(0,str.length());
             str.append(dash);
+            System.out.println("Word"+this.word);
             return dash;
     }
     @PostMapping ("/api/character")
