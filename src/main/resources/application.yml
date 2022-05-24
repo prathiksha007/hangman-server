@@ -6,6 +6,6 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/prathiksha007/spring-cloudconfig-hangman
+            uri: https://github.com/prathiksha007/spring-cloudconfig-hangman
 
 
